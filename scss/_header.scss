@@ -1,0 +1,85 @@
+.header{
+    background-image: url(../imgs/mobile/fundo_header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @media (min-width: map-get($breakpoints, tablet)){
+        background-image: url(../imgs/fundo_header.jpg);
+        background-size: contain;
+    }
+
+    .header__logo{
+        margin-top: 1.8vw; 
+    };
+
+    .header__text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80%;
+        position: relative;
+        margin-top: 4vw;
+
+        @media (min-width: map-get($breakpoints, tablet)){
+            top: -2.4vw;
+        }
+
+        ul{
+            font-size: 11vw;
+            color: $colorWhite;
+            margin: 0;
+            padding: 0;
+            font-family: 'GothamRoundedMedium';
+            display: none;
+
+            @media (min-width: map-get($breakpoints, tablet)){
+                font-size: 8vw;
+            }
+
+            @media (min-width: map-get($breakpoints, desktop)){
+                font-size: 5.5vw;
+            }
+
+            img{
+                margin: 0 2vw 0 0 ;
+                width: 6vw;
+
+                @media (min-width: map-get($breakpoints, desktop)){
+                    margin: 0 0.8vw 0 0 ;
+                    width: 4vw;
+                }
+            }
+        }
+
+        p{
+            font-size: 3.5vw;
+            text-align: center;
+            color: $colorBlack;
+            font-family: 'GothamRoundedBook';
+            margin: 1.6vw 0 0;
+
+            @media (min-width: map-get($breakpoints, tablet)){
+                font-size: 2vw;
+            }
+
+            @media (min-width: map-get($breakpoints, desktop)){
+                font-size: 1.6vw;
+            }
+        }
+
+        button{
+            margin-top: 60vw;
+
+            @media (min-width: map-get($breakpoints, tablet)){
+                margin-top: 0.8vw;
+            }
+
+        }
+    }
+
+
+}
+
+
+

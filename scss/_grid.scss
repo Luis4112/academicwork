@@ -1,0 +1,77 @@
+.gridrow{
+    width: 100%; /*sempre largura total da página*/
+    margin: 0 auto;
+}
+
+.gridrow{
+    @extend .clearfix; 
+    @for $i from 0 through $gridcolumns { 
+        .quiz{
+            visibility:hidden;
+        }
+        
+        .col#{$i} {
+            box-sizing: border-box ;
+            width: percentage($i/$gridcolumns);
+            float: left;
+        }
+        .offset#{$i} { /*usado para 'saltar' colunas*/
+            margin-left: percentage($i/$gridcolumns);
+        }
+    }
+
+    @for $i from 0 through $gridcolumns { 
+        @media (min-width: map-get($breakpoints, tablet)){
+            .quiz{
+                visibility:hidden;
+            }
+
+            .colt#{$i} {
+                box-sizing: border-box ;
+                width: percentage($i/$gridcolumns);
+                float: left;
+            }
+            
+            .offsett#{$i} { 
+                margin-left: percentage($i/$gridcolumns);
+            }
+        }
+    }
+
+    @for $i from 0 through $gridcolumns { 
+        @media (min-width: map-get($breakpoints, desktop)){
+            .quiz{
+                visibility:visible;
+            }
+
+            .cold#{$i} {
+                box-sizing: border-box ;
+                width: percentage($i/$gridcolumns);
+                float: left;
+            }
+            
+            .offsetd#{$i} { 
+                margin-left: percentage($i/$gridcolumns);
+            }
+        }
+    }
+
+    @for $i from 0 through $gridcolumns { 
+        @media (min-width: map-get($breakpoints, desktopbig)){
+            .quiz{
+                visibility:visible;
+            }
+
+            .coldb#{$i} {
+                box-sizing: border-box ;
+                width: percentage($i/$gridcolumns);
+                float: left;
+            }
+            
+            .offsetdb#{$i} { 
+                margin-left: percentage($i/$gridcolumns);
+            }
+        }
+    }
+
+}

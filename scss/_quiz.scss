@@ -1,0 +1,118 @@
+.quiz{
+    height: 100%;
+    z-index: 100;
+    position: fixed;
+    background-color: $colorWhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width: 8vw;
+        margin-bottom: 2.4vw;
+    }
+
+    h3{
+        text-align: center;
+        color: $colorGreyOpacity;
+        font-size: 1.2vw;
+        letter-spacing: .10vw;
+        text-transform: uppercase;
+        margin: 0;
+        font-family: 'GothamRoundedMedium';
+    }
+
+    p{
+        margin: 1.6vw auto;
+        text-align: center;
+        color: $colorGrey;
+        font-size: 2.2vw;
+        font-family: 'GothamRoundedBook';
+        line-height: 3vw;
+
+        span{
+            font-family: 'GothamRoundedBold';
+        }
+    }
+}
+
+.quizpage{
+    position: fixed; /*porque senão fazem scrool e desve na mesma..*/
+    display: none;
+    background-color: $colorSilver;
+    height: 100vh;
+    z-index: 50;    
+
+    &.quizpage__active{  
+        display: block;
+    }
+}
+
+/* ------ QUIZ MOBILE ------ */
+
+.quizmobilejoana{
+    z-index:100;
+    position: fixed;
+    transition: all 1s;
+
+    &.quizIsActive{
+        
+    }
+}
+
+.quizmobile{
+    background-color: $colorWhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.3);
+    -moz-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.3);
+    box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.3);
+    
+    
+    p{
+        color: $colorGrey;
+        font-size: 4.5vw;
+        line-height: 5.5vw;
+        font-family: 'GothamRoundedBook';
+
+        span{
+            font-family: 'GothamRoundedBold';
+        }
+    }
+
+    img{
+        margin: 3vw; 
+    }
+
+    button{
+        background-color: $colorYellow;
+        color: $colorGrey;
+        margin: 3vw;
+        border-style: none;
+        border-radius: 0.7vw;
+    
+        &:hover{
+            background-color: $colorGrey;
+            color: $colorWhite;
+        }
+
+        span{
+            font-size: 12vw;
+        }
+    }
+}
+
+
+.quizpage_mobile{
+    background-color: $colorSilver;
+    height: 100vh;
+}
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="170px" height="19px" viewBox="0 0 170 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>status/2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="status/2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M19,9.5 L50.0362691,9.5" id="Line" stroke="#F3CA21" stroke-width="4" stroke-linecap="square"></path>
+        <path d="M51,9.5 L161,8" id="Line-Copy" stroke="#F1F1F1" stroke-width="4" stroke-linecap="square"></path>
+        <ellipse id="Oval-Copy-2" fill="#F3CA21" cx="47.2222222" cy="9.5" rx="9.44444444" ry="9.5"></ellipse>
+        <ellipse id="Oval-Copy-3" fill="#F1F1F1" cx="86.0493827" cy="9.5" rx="9.44444444" ry="9.5"></ellipse>
+        <ellipse id="Oval-Copy-4" fill="#F1F1F1" cx="122.777778" cy="9.5" rx="9.44444444" ry="9.5"></ellipse>
+        <ellipse id="Oval-Copy-5" fill="#F1F1F1" cx="160.555556" cy="9.5" rx="9.44444444" ry="9.5"></ellipse>
+        <ellipse id="Oval-Copy" fill="#F3CA21" cx="9.44444444" cy="9.5" rx="9.44444444" ry="9.5"></ellipse>
+    </g>
+</svg>

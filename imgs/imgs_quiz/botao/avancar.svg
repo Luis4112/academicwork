@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="103px" height="44px" viewBox="0 0 103 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>botao/avancar</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="botao/avancar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Disclosure-Indicator" fill="#5F7473" transform="translate(52.000000, 35.000000) rotate(-270.000000) translate(-52.000000, -35.000000) " points="46 27.3076923 48.25 25 58 35 48.25 45 46 42.6923077 53.5 35"></polygon>
+        <text id="Avançar" font-family="GothamRounded-Medium, Gotham Rounded" font-size="12" font-weight="400" fill="#5F7473">
+            <tspan x="27.568" y="15">Avançar</tspan>
+        </text>
+    </g>
+</svg>

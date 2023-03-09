@@ -1,0 +1,159 @@
+.app{
+    background-image: url('../imgs/mobile/fundo_app.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @media (min-width: map-get($breakpoints, tablet)){
+        background-image: url('../imgs/fundo_app.jpg');
+    }
+}
+
+.app__img{
+    background-image: url('../imgs/mobile/telemovel.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+    height: 100%;
+    display: none;
+
+    @media (min-width: map-get($breakpoints, tablet)){
+        display: block;
+    }
+  
+}
+
+.app__text{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .app__text_top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80%;
+        margin: 0;
+        text-align: center;
+
+        @media (min-width: map-get($breakpoints, tablet)){
+            height: 70%;
+        }
+
+
+        h3{
+            font-size: 3.8vw;
+            letter-spacing: .10vw;
+            color: $colorGrey;
+            opacity: 0.5;
+            margin: 0;
+            text-transform: uppercase;
+            font-family: 'GothamRoundedMedium';
+
+            @media (min-width: map-get($breakpoints, tablet)){
+                font-size: 1.8vw;
+            }
+    
+            @media (min-width: map-get($breakpoints, desktop)){
+                font-size: 1.2vw;
+            }
+        }
+        
+        h2{
+            font-size: 6vw;
+            line-height: 7.6vw;
+            font-family: 'GothamRoundedBook';
+            color: $colorGrey;
+            text-align: center;
+            margin-bottom: 1.6vw auto;
+
+            span{
+                font-family: 'GothamRoundedBold';
+            }
+
+            @media (min-width: map-get($breakpoints, tablet)){
+                font-size: 3.4vw;
+                line-height: 4.2vw;
+            }
+    
+            @media (min-width: map-get($breakpoints, desktop)){
+                font-size: 2.2vw;
+                line-height: 3vw;
+            }
+        }
+
+        img{
+            margin: 0 0 2vw;
+            width: 6vw;
+
+            @media (min-width: map-get($breakpoints, tablet)){
+                margin: 0 0 1.2vw;
+                width: 5vw;
+            }
+    
+            @media (min-width: map-get($breakpoints, desktop)){
+                margin: 0 0 0.8vw;
+                width: 3.2vw;
+            }
+        }
+
+        ul{
+            font-size: 3.3vw;
+            line-height: 4.2vw;
+            font-family: 'GothamRoundedBook';
+            color: $colorGrey;
+            text-align: center;
+            padding: 0 4vw;
+            margin: 0 0 90vw;
+
+            @media (min-width: map-get($breakpoints, tablet)){
+                font-size: 2.4vw;
+                line-height: 3.2vw;
+                margin: 0;
+            }
+    
+            @media (min-width: map-get($breakpoints, desktop)){
+                font-size: 1.6vw;
+                line-height: 2.4vw;
+            }
+        }
+        
+    }
+
+    .app__text_bottom{
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        button{
+            margin-top: 2vw; 
+
+            @media (min-width: map-get($breakpoints, tablet)){
+                margin-top: 1.2vw; 
+            }
+
+            &:first-child{
+                margin-top: 20vw;
+
+                @media (min-width: map-get($breakpoints, tablet)){
+                    margin-top: 0;
+                }
+            }
+
+            .icon-apple, .icon-google{
+                font-size: 3.5vw;
+                margin: 0 2vw 0 0;
+
+                @media (min-width: map-get($breakpoints, tablet)){
+                    font-size: 1.6vw;
+                    margin: 0 0.8vw 0 0;
+                }
+            }
+        }
+    }
+}

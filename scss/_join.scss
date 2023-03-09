@@ -1,0 +1,73 @@
+.join{
+    background-image: url('../imgs/mobile/fundo_join.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @media (min-width: map-get($breakpoints, tablet)){
+        background-image: url(../imgs/fundo_join.jpg);
+        background-size: contain;
+    }
+
+}
+
+.join__text{
+    height:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'GothamRoundedBook';
+    
+    @media (min-width: map-get($breakpoints, tablet)){
+        height: 100%;
+    }
+
+    h3{
+        font-family: 'GothamRoundedMedium';
+        font-size: 3.8vw;/*inspect ver onde ficam 2 colunas ir jogando com os valores*/
+        letter-spacing: .10vw;
+        color: $colorWhite;
+        text-transform: uppercase;
+        text-align: center;
+        opacity: 0.5;
+        margin: 0;
+
+        @media (min-width: map-get($breakpoints, tablet)){
+            font-size: 1.8vw;
+        }
+
+        @media (min-width: map-get($breakpoints, desktop)){
+            font-size: 1.2vw;
+        }
+    }
+
+    p{
+        font-size: 6vw;
+        line-height: 7.6vw;
+        font-family: 'GothamRoundedBook';
+        color: $colorWhite;
+        text-align: center;
+        margin:2vw auto;
+
+        @media (min-width: map-get($breakpoints, tablet)){
+            font-size: 3.4vw;
+            line-height: 4.2vw;
+        }
+
+        @media (min-width: map-get($breakpoints, desktop)){
+            font-size: 2.2vw;
+            line-height: 3vw;
+        }
+    }
+
+    button{ /*expecção aos outros botões*/
+        &:hover{
+            background-color: $colorWhite;
+            color: $colorGrey;
+        }
+    }
+
+    span{
+        font-family: 'GothamRoundedBold';
+    }
+}

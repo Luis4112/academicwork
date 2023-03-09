@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="151px" height="40px" viewBox="0 0 151 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>botao/secundario</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="botao/secundario" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-2-Copy-2" stroke="#2E2E31" fill-rule="nonzero" x="0.5" y="0.5" width="150" height="39" rx="4"></rect>
+        <text id="Default-Copy" font-family="GothamRounded-Medium, Gotham Rounded" font-size="16" font-weight="400" fill="#2E2E31">
+            <tspan x="46.292" y="25">Default</tspan>
+        </text>
+    </g>
+</svg>

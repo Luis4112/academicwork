@@ -1,0 +1,111 @@
+html , body{
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.italic{
+    font-family: 'GothamRoundedBookItalic';
+}
+
+.button_primary{
+    background-color: $colorYellow;
+    color: $colorGrey;
+    width: 100%;
+    border-radius: 0.7vw;
+    border-style: none;
+    font-size: 3.5vw;
+    padding: 3vw;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'GothamRoundedMedium'; 
+    letter-spacing: 1px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+
+    @media (min-width: map-get($breakpoints, tablet)){
+        font-size: 1.5vw;
+        padding: 1.5vw;
+        border-radius: 0.3vw;
+    }
+
+    @media (min-width: map-get($breakpoints, desktop)){
+        font-size: 1.3vw;
+        padding: 1vw;
+    }
+
+    &:hover{
+        color: $colorWhite;
+        background-color: $colorGrey;
+    }
+}
+
+.button_secundary{
+    background-color: $colorWhite;
+    color: $colorGrey;
+    width: 100%;
+    border-radius: 0.7vw;
+    border-style: none;
+    font-size: 3.5vw;
+    padding: 3vw;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'GothamRoundedMedium'; 
+    letter-spacing: 1px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+
+    @media (min-width: map-get($breakpoints, tablet)){
+        font-size: 1.5vw;
+        padding: 1.5vw;
+        border-radius: 0.3vw;
+    }
+
+    @media (min-width: map-get($breakpoints, desktop)){
+        font-size: 1.3vw;
+        padding: 1vw;
+    }
+
+    &:hover{
+        color: $colorWhite;
+        background-color: $colorGrey;
+    }
+}
+
+.hidden{
+    display: none;
+    opacity: 0;
+    @media (min-width: map-get($breakpoints, tablet)){
+        display:block;
+        opacity: 1;
+    }
+}
+
+.hiddenmobile_quiz{
+    display: block;
+    opacity: 1;
+
+    @media (min-width: map-get($breakpoints, desktop)){
+        display:none;
+        opacity: 0;
+    }
+}
+
+.hiddenmobile{
+    display: block;
+    opacity: 1;
+
+    @media (min-width: map-get($breakpoints, tablet)){
+        display:none;
+        opacity: 0;
+    }
+}
+

@@ -1,0 +1,25 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass ./scss/styles.scss ./css/styles.css",
+    "watch": "sass --watch ./scss/styles.scss ./css/styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sas": "^3.0.4",
+    "sass": "^1.17.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joamagsi/landing_page.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joamagsi/landing_page/issues"
+  },
+  "homepage": "https://github.com/joamagsi/landing_page#readme",
+  "description": ""
+}

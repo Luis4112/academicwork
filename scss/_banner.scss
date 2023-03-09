@@ -1,0 +1,28 @@
+.banner{
+    background-color: $colorYellow;
+    position: relative;
+}
+
+.banner:before{
+	content: "";
+	display: block;
+	padding-top: 50%; /*metade da altura... a altura de uma das imanges*/ 
+}
+
+.banner__logo{
+    top: 20px;
+    position: absolute; /*sem ser isto....??*/
+}
+
+.banner__button{
+    background-color: $colorWhite;
+    border-radius: 4px;
+    border-style: none;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-top: 20px;
+    position: relative;
+}

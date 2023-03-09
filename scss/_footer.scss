@@ -1,0 +1,105 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background-color: $colorWhite;
+    padding: 2vw;
+    margin-bottom: 22.5vw;
+
+
+    @media (min-width: map-get($breakpoints, tablet)){
+        flex-direction: row;
+        padding: 0.5vw;
+        margin-bottom: 22.5vw;
+    }
+
+    @media (min-width: map-get($breakpoints, desktop)){
+        margin-bottom: 0;
+    }
+
+    .footer__redes{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        a{
+            text-decoration: none;
+            color: $colorGrey;
+
+            span{
+                &:first-child{
+                    margin:0;
+                }
+            
+                &:last-child{
+                    margin-left: 1.6vw;
+                }
+            }
+
+            .icon-face, .icon-insta{
+                font-size: 5vw;
+                color: $colorGrey;
+                -o-transition:.5s;
+                -ms-transition:.5s;
+                -moz-transition:.5s;
+                -webkit-transition:.5s;
+
+                @media (min-width: map-get($breakpoints, tablet)){
+                    font-size: 3vw;
+                }
+
+                @media (min-width: map-get($breakpoints, desktop)){
+                    font-size: 2.4vw;
+                }
+
+                &:hover{
+                    color: $colorYellow;
+                }
+            }
+        }
+    }
+
+
+    .footer__copy{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        font-size: 2.5vw;
+        letter-spacing: .1vw;
+        text-transform: uppercase;
+        color: $colorGreyOpacity;
+        font-family: 'GothamRoundedBook';
+
+        @media (min-width: map-get($breakpoints, tablet)){
+            font-size: 1.5vw;
+        }
+        
+        @media (min-width: map-get($breakpoints, desktop)){
+            font-size: 1.2vw;
+        }
+
+        p{
+            margin-bottom: 0;
+
+            @media (min-width: map-get($breakpoints, tablet)){
+                margin: auto;
+            }
+        }
+
+        a{
+            text-decoration: none;
+            color: $colorGreyOpacity;
+            -o-transition:.5s;
+            -ms-transition:.5s;
+            -moz-transition:.5s;
+            -webkit-transition:.5s;
+
+            &:hover{
+                color: $colorGrey;
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="103px" height="44px" viewBox="0 0 103 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>botao/voltar</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="botao/voltar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Disclosure-Indicator" fill="#5F7473" transform="translate(52.000000, 7.000000) rotate(-90.000000) translate(-52.000000, -7.000000) " points="46 -0.692307692 48.25 -3 58 7 48.25 17 46 14.6923077 53.5 7"></polygon>
+        <text id="Voltar" font-family="GothamRounded-Medium, Gotham Rounded" font-size="12" font-weight="400" fill="#5F7473">
+            <tspan x="33.814" y="37">Voltar</tspan>
+        </text>
+    </g>
+</svg>
